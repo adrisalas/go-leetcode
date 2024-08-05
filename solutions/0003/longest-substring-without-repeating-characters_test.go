@@ -9,7 +9,7 @@ type TestCase struct {
 	output int
 }
 
-func Test0003(t *testing.T) {
+func Test(t *testing.T) {
 	testCases := []TestCase{
 		{"abcabcbb", 3},
 		{"bbbbb", 1},

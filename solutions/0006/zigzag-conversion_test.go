@@ -10,7 +10,7 @@ type TestCase struct {
 	output  string
 }
 
-func Test0004(t *testing.T) {
+func Test(t *testing.T) {
 	testCases := []TestCase{
 		{"PAYPALISHIRING", 3, "PAHNAPLSIIGYIR"},
 		{"PAYPALISHIRING", 4, "PINALSIGYAHRPI"},

@@ -10,7 +10,7 @@ type TestCase struct {
 	output float64
 }
 
-func Test0004(t *testing.T) {
+func Test(t *testing.T) {
 	testCases := []TestCase{
 		{[]int{1, 3}, []int{2}, 2.0},
 		{[]int{1, 2}, []int{3, 4}, 2.5},

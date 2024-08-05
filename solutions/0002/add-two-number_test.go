@@ -10,7 +10,7 @@ type TestCase struct {
 	output *ListNode
 }
 
-func Test0002(t *testing.T) {
+func Test(t *testing.T) {
 	testCases := []TestCase{
 		{
 			&ListNode{2, &ListNode{4, &ListNode{3, nil}}},
